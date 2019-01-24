@@ -1,26 +1,9 @@
 /*
-For Eve Muted:
-pink: #F26A87
-gray: #D7D8DB
-green: #C2D7C1
-gold: #D8A204
-tan: BE7964
-
-For Eve Bright:
 red: #D8465E
 pink: #F26A87
 gold: #D8A204
 orange gold: #D98B00
 Tan: #BE7964
-
-For Eve Colorful:
-Red: #D73A53
-White: #D7D8DB
-Yellow: #D8A204
-Gold: #D98B00
-Tan: #BE7964
-
-
 */
 
 /* Using Bright for now */
@@ -29,7 +12,6 @@ html, body {
 }
 
 body {
-    /* font-family: 'Noto Sans', sans-serif; */
     font-family: 'Noto Serif', serif;
     color: black;
     margin: 0;
@@ -47,36 +29,56 @@ a {
 }
 
 p {
-    line-height: 1.4;
-    font-size: 18px;
+    line-height: 1.6;
+    font-size: 14px;
     width: 100%;
-    letter-spacing: 1px;
-    white-space: pre-wrap;
     padding-left: 50px;
     margin-top: 0px;
 }
 
-div {
-    line-height: 1.4;
-    font-size: 18px;
-    width: 100%;
-    letter-spacing: 1px;
+.pre-wrap {
     white-space: pre-wrap;
+}
+
+div {
     box-sizing: border-box;
 }
 
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
 .half {
-    width: 49%;
-    font-size: 18px;
-    display: inline-block;
+    flex: 0 50%;
 }
 
 .left {
+    flex: 0 50%;
     text-align: left;
     padding-left: 50px;
 }
 
 .right {
+    flex: 0 100%;
     text-align: right;
     padding-right: 50px;
 }
+
+@media only screen and (min-width: 600px) {
+    p {
+        font-size: 28px;
+    }
+
+    .pre-wrap {
+        font-size: 24px;
+    }
+
+    h1 {
+        font-size: 34px;
+    }
+
+    .left {
+        flex: 0 60%;
+    }
+  }
