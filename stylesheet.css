@@ -33,10 +33,6 @@ p {
     margin-top: 0px;
 }
 
-.pre-wrap {
-    white-space: pre-wrap;
-}
-
 div {
     box-sizing: border-box;
 }
@@ -72,10 +68,6 @@ div {
 
 @media only screen and (min-width: 600px) {
     p {
-        font-size: 28px;
-    }
-
-    .pre-wrap {
         font-size: 24px;
     }
 
