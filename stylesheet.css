@@ -1,9 +1,7 @@
 /*
-red: #D8465E
 pink: #F26A87
-gold: #D8A204
-orange gold: #D98B00
-Tan: #BE7964
+yellow: #B88C03
+green: #4B751F
 */
 
 /* Using Bright for now */
@@ -24,7 +22,6 @@ h1 {
 }
 
 a {
-    color: #F26A87;
     white-space: normal;
 }
 
@@ -63,6 +60,14 @@ div {
     flex: 0 100%;
     text-align: right;
     padding-right: 50px;
+}
+
+.body-link {
+    color: #F26A87;
+}
+
+.press-link {
+    color: #B88C03;
 }
 
 @media only screen and (min-width: 600px) {
