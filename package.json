@@ -4,7 +4,7 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "predeploy": "npm run build",
+    "predeploy": "rm -rf dist && parcel build ./*.html --public-url 'https://ibrand.github.io/presumptuous/'",
     "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
