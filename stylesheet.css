@@ -66,6 +66,10 @@ div {
     color: #B88C03;
 }
 
+div.proseplay {
+    padding: 50px;
+}
+
 @media only screen and (min-width: 600px) {
     p {
         font-size: 24px;

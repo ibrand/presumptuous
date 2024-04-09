@@ -2,9 +2,9 @@
   "name": "Press",
   "source": "index.html",
   "scripts": {
-    "start": "parcel",
+    "dev": "parcel",
     "build": "parcel build",
-    "predeploy": "rm -rf dist && parcel build ./*.html --public-url 'https://ibrand.github.io/presumptuous/'",
+    "predeploy": "rm -rf dist && rm -rf .parcel-cache && parcel build ./*.html --public-url 'https://ibrand.github.io/presumptuous/'",
     "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
