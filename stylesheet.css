@@ -66,14 +66,40 @@ div {
     color: #B88C03;
 }
 
-div.proseplay {
+div.text {
     padding: 50px;
     font-size: 30px;
+    white-space: pre;
+}
+
+.poem {
+    opacity: 0;
+}
+
+.pressure {
+    opacity: 1;
+}
+
+.arrow {
+    width: 50px;
+    position:absolute;
+    top: 80px;
+    border: 1px solid black;
+    padding: 10px;
+    cursor: pointer;
+    left: 50px;
+    font-size: 25px;
+}
+
+.poem {
+    position: absolute;
+    top: 100px;
+    transition: opacity 1.5s ease 0s;
 }
 
 
 @media only screen and (min-width: 600px) {
-    div.proseplay {
+    div.text {
         padding: 50px;
         font-size: 28px;
     }
