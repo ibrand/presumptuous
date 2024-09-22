@@ -71,6 +71,22 @@ div.proseplay {
     font-size: 30px;
 }
 
+.rearview-link {
+    color: #4B751F;
+}
+
+.rearview-container {
+    padding: 5% 10%;
+}
+
+.reverse-text {
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}
+
 
 @media only screen and (min-width: 600px) {
     div.proseplay {
